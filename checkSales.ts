@@ -25,7 +25,7 @@ const buildMessage = (sale: any) => (
 	.setColor('#0099ff')
 	.setTitle(sale.asset.name + ' sold!')
 	.setURL(sale.asset.permalink)
-	.setAuthor('OpenSea Bot', 'https://files.readme.io/566c72b-opensea-logomark-full-colored.png', 'https://github.com/sbauch/opensea-discord-bot')
+	.setAuthor('ChxxseBot', 'https://files.readme.io/566c72b-opensea-logomark-full-colored.png', 'https://images-ext-2.discordapp.net/external/90gwOuBawtxemsYGOZtSRYSy1y11HnpOxDljThHPCcw/%3Fcid%3D73b8f7b10184bb819a49a970313d8a4aa20ea326e2086cb4%26rid%3Dgiphy.mp4%26ct%3Dg/https/media3.giphy.com/media/jsl82uOLnCdAXBqT1O/giphy.mp4')
 	.setThumbnail(sale.asset.collection.image_url)
 	.addFields(
 		{ name: 'Name', value: sale.asset.name },
